@@ -8,7 +8,7 @@ class PostModelAdmin(admin.ModelAdmin):
     list_display_links=["updated"]
     list_filter =["updated","timestamp"]
     search_fields=["title"] #content -> a tartalomban is keres pl.
-    list_editable=["title"] #items you can edit
+    #list_editable=["title"] #items you can edit
     class Meta:
         model=Post
 
